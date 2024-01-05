@@ -1,0 +1,960 @@
+body {
+    margin: auto auto;
+    border: 1px solid #F6F1EE;
+    color: #3B3A3A;
+    font-family: "Open sans";
+}
+
+nav {
+    border-bottom: 10px solid #BDA672;
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+.burger {
+    font-size: 3em;
+    color: #BF9A3C;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3B3A3A;
+}
+
+.fa-chevron-down {
+    color: #BF9A3C;
+}
+
+.pageactive a {
+    border-bottom: 1px solid #BF9A3C;
+    padding-bottom: .5em;
+}
+
+header h1 {
+    font-family: Lustria;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0px 0px 5px #000;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-image: url(images/bandeau.png);
+}
+
+.conteneurCTA {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.CTA {
+    border: 2px solid #F6F1EE;
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    width: 23%;
+}
+
+.fa-golf-ball, .fa-calendar-alt, .fa-info-circle {
+    color: #BF9A3C;
+    font-size: 2.5em;
+}
+div.CTA::after {
+    content: "";
+    display: block;
+    width: 4em;
+    border-bottom: 3px solid #bda672;
+    margin: 2em auto;
+}
+   
+h2 {
+    font-family: Lustria;
+    border-bottom: 3px solid #bda672;
+    margin: 0 0 1em 0;
+    padding-bottom: 0.5em;
+}
+    
+.articlegauche div {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 4em;
+}
+    
+.articlegauche div div {
+    flex-direction: column;
+    width: 39%;
+    margin: 0 auto;
+}
+    
+section ul {
+    list-style: url(images/drapeau-liste.png);
+}
+    
+section a {
+    color: #3B3A3A;
+}
+    
+article figure {
+    margin: 2em 0 0 0px;
+    position: relative;
+    max-height: 300px;
+    max-width: 300px;
+}
+    
+article figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.3em;
+    background-color: #bf9a3c;
+    color: #fff;
+}
+    
+article a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #BF9A3C;
+    padding: 0.5em 1em;
+    margin: 0 149px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#newsletter {
+    height: 854px;
+    background-image: url(images/golfeur.jpeg);
+}
+
+.innerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid #bda672;
+    border-bottom: 3px solid #bda672;
+    margin: 0 auto;
+}
+
+.fa-envelope {
+    font-size: 2em;
+    color: #BF9A3C;
+    vertical-align: middle;
+}
+
+label {
+    margin-left: 0.5em;
+}
+
+input#email {
+    font-style: italic;
+    padding: 0.2em;
+    margin: 0 .5em;
+}
+
+.valider {
+    color: #fff;
+    background-color: #BF9A3C;
+    border-radius: 2px;
+    border: none;
+    padding: 0.42em 1.5em;
+    font-size: 80%;
+}
+
+footer {
+    background-color: #3B393A;
+    color: white;
+    text-align: center;
+    border-top: 10px solid #BDA672;
+}
+
+.pied {
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 3px solid white;
+    padding: 3em 0;
+}
+
+.pied ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.pied a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-map-marker-alt {
+    font-size: 2.5em;
+    margin-bottom: .3em;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+.reseaux {
+    font-size: 2.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    padding: 2em;
+    margin: 0;
+}
+
+.tarif, .contact {
+    margin: 0 auto 2em;
+    border-bottom: 3px solid #BDA672;
+    padding-bottom: 4em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background: #F6F1EE;
+}
+
+th, td {
+    border: 1px solid #BDA672;
+    height: 3.5em;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+    padding-left: 1em;
+}
+
+form.w45 div {
+    display: flex;
+    flex-direction: column;
+}
+
+form.w45 input, form.w45 select, form.w45 textarea {
+    background-color: #F6F1EE;
+    border: none;
+    font-style: italic;
+    height: 3em;
+    padding-left: 1em;
+}
+
+form.w45 label {
+    margin: 0;
+}
+
+form.w45 input#email {
+    padding-left: 1em;
+    margin: 0;
+}
+
+form.w45 textarea {
+    height: 18em;
+}
+
+form.w45 input.btn {
+    margin-top: 1em;
+    background-color: #BF9A3C;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0px 1em;
+    height: 2em;
+}
+
+.envoyer {
+    align-items: end;
+}
+
+.FAQ {
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.FAQ h2 {
+    margin-right: 25em;
+}
+
+.FAQ li {
+    background-color: #F6F1EE;
+    list-style: none;
+    padding: 1rem 0.5rem 0.2rem;
+    margin-bottom: 0.5em;
+}
+
+.FAQ ul {
+    padding: 0;
+}
+
+.FAQ h3 {
+    font-weight: normal;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ p {
+    position: relative;
+    overflow: hidden;
+    font-style: italic;
+    margin-bottom: 0.5em;
+    height: 0px;
+    transition: .5s ease-in;
+}
+
+.FAQ li:hover p{
+    height: 22px;
+}
+
+.survol {
+    background: rgba(191, 154, 60, 0.9);
+    border: 2px solid #F6F1EE;
+    text-align: center;
+    padding: 2em;
+    width: 23%;
+}
+
+
+.survol > .fa-golf-ball {
+    color: white;
+}
+
+.survol > .fa-calendar-alt {
+    color: white;
+}
+
+.survol > .fa-info-circle {
+    color: white;
+}
+
+.survol h3 {
+    color: white;
+}
+
+div.survol::after {
+    content: "";
+    display: block;
+    width: 4em;
+    border-bottom: 3px solid #bda672;
+    margin: 2em auto;
+}
+
+.invalide {
+    border-color: red;
+}
+
+.invalide:focus {
+    border-color: red;
+}
+
+@media screen and (min-width: 1280px) {
+body {
+    max-width: 1240px;
+}
+
+.nodesktop {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    margin-top: 3em;
+}
+
+nav a {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a:hover {
+    color: #BF9A3C;
+}
+
+.sousmenu {
+    position: absolute;
+    width: 134px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: .5s ease-in;
+    background-color: #fff;
+    margin: 0;
+}
+
+.sousmenu a {
+    border-bottom: 2px solid #BDA672;
+    padding: 1em 0 1em 0;
+    justify-content: flex-start;
+}
+
+#domaine:hover .sousmenu {
+    height: 224px;
+}
+
+.sousmenu li {
+    padding: 0 2em 0 0;
+}
+
+header h1 {
+    height: 700px;
+}
+
+.conteneurArticle {
+    display: flex;
+}
+
+.conteneurArticle {
+    width: 85%;
+    margin: 0 auto;
+}
+
+article {
+    width: 118%;
+}
+
+.video {
+    width: 31%;
+    margin: 0 0em 0 7.5%;
+}
+
+#newsletter {
+    margin: 3em 0 0 0;
+}
+    
+.innerForm {
+    padding: 1.5em;
+    width: 85%;
+}
+
+.pied {
+    width: 85%;
+    display: flex;
+}
+
+.tarif h2, .contact h2{
+    margin: 0 68% 0 0%;
+}
+
+form.w45 div {
+    width: 200%;
+}
+
+.bloccontact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    width: 45%;
+}
+
+.sponsor li{
+    list-style: none;
+}
+
+.sponsor img {
+    width: 74%;
+    height: 75%;
+    padding: 1em 1.5em;
+    margin: 0 1em;
+    background-color: #BF9A3C;
+}
+
+.sponsor ul {
+    display: flex;
+    padding: 0;
+    margin-top: 4em;
+}
+
+.FAQ {
+    width: 85%;
+}
+
+.FAQ {
+    border-bottom: 3px solid #BDA672;
+    }
+
+.left {
+    position: relative;
+    top: -3px;
+    left: -118px;
+}
+
+.right {
+    position: relative;
+    top: -3px;
+    left: -80px;
+}
+
+.balle {
+    position: relative;
+    top: 0px;
+    left: -144px;
+}
+
+.balle {
+    animation: slidein 2s linear;
+  }
+
+  @keyframes slidein {
+    0% {
+        top: -73px;
+        left: 870px;
+    }
+
+    20% {
+        transform: rotate(72deg);
+        top: 14px;
+        left: 479px;
+    }
+
+    40% {
+        transform: rotate(144deg);
+        top: -38px;
+        left: 290px;
+    }
+
+    60% {
+        transform: rotate(216deg);
+        top: -5px;
+        left: 129px;
+    }
+
+    80% {
+        transform: rotate(288deg);
+        top: -35px;
+        left: -30px;
+    }
+
+    100% {
+        transform: translate(0,0);
+    }
+  }
+
+.left, .right {
+    animation: contour 3s ease-in;
+}
+
+@keyframes contour {
+    0%,50% {
+        opacity: 0%;
+    }
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .nomobile {
+        display: none;
+    }
+
+    .nodesktop {
+        max-width: 50%;
+    }
+    body {
+        max-width: 850px;
+    }
+
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    nav li {
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+
+    .burger:hover+.menu {
+        max-height: 680px;
+    }
+    .menu {
+        overflow: hidden;
+        position: absolute;
+        top: 60px;
+        width: 810px;
+        max-height: 0px;
+        transition: .5s ease-in;
+        background-color: white;
+        z-index: 1;
+        margin-left: -16px;
+    }
+
+    .sousmenu {
+        position: relative;
+        width: 688px;
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: ease-in;
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .sousmenu li {
+        border-bottom: 2px solid #BDA672;
+    }    
+
+    .sousmenu a {
+        padding: 1em 0 1em 0;
+        justify-content: flex-start;
+    }
+    
+    #domaine:hover .sousmenu {
+        height: 245px;
+    }
+
+    header {
+        background-size: 850px;
+        background-repeat: no-repeat;
+    }
+
+    header h1 {
+        height: 500px;
+    }
+
+    .conteneurCTA {
+        transform: translateY(-25%);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .CTA {
+        width: 35%;
+        margin: 0.3em 0.9em 0 0.9em;
+    }
+    
+    .survol {
+        width: 35%;
+        margin: 0.3em 0.9em 0 0.9em;
+    }
+    
+    .conteneurArticle {
+        width: 98%;
+        margin: 0 auto;
+    }
+    
+    .articlegauche div div {
+    width: 100%;
+    margin: 0 0 0 3em;
+    }
+
+    .articlegauche h2 {
+        width: 70%;}
+
+    article h2 {
+        width: 50%;
+    }
+
+    article a {
+        width: 33%;
+    }
+
+    .une {
+        display: flex;
+    }
+
+    .texteune {
+        margin: 0.7em 3em 0 2em;
+    }
+
+    article {
+        margin-bottom: 4em;
+    }
+
+    .video h2 {
+        margin-right: 18em;
+    }
+    
+    .video {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 4em;
+    }
+
+    .innerForm {
+        padding: 1.5em 0;
+        width: 98%;
+    }
+
+    #newsletter {
+        background-position: center;
+    }
+
+    .pied ul {
+        display: none;
+    }
+
+    .pied {
+        padding: 3em 1em;
+        display: flex;
+    }
+
+    .tarif, .contact {
+        width: 98%;
+    }
+
+    .tarif h2, .contact h2{
+        margin: 0 50% 0 0%;
+    }
+
+    .sponsor {
+        display: none;
+    }
+
+    .FAQ {
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .nomobile {
+        display: none;
+    }
+
+    body {
+        max-width: 470px;
+    }
+
+    .nodesktop {
+        max-width: 75%;
+    }
+
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    .burger:hover+.menu {
+        max-height: 680px;
+    }
+
+    nav li {
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+
+    .menu {
+        overflow: hidden;
+        position: absolute;
+        top: 60px;
+        width: 430px;
+        max-height: 0px;
+        transition: .5s ease-in;
+        background-color: white;
+        z-index: 1;
+        margin-left: -16px;
+    }
+
+    .sousmenu {
+        position: relative;
+        width: 335px;
+        height: 0px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transition: ease-in;
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .sousmenu li {
+        border-bottom: 2px solid #BDA672;
+
+    }    
+
+    .sousmenu a {
+        padding: 1em 0 1em 0;
+        justify-content: flex-start;
+    }
+    
+    #domaine:hover .sousmenu {
+        height: 245px;
+    }
+
+    header {
+        background-size: 470px;
+        background-repeat: no-repeat;
+        height: 394px;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+        text-align: center;
+        padding-top: 5em;
+    }
+
+    .conteneurCTA {
+        transform: translateY(-21%);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .CTA {
+        width: 63%;
+        margin-bottom: 0.3em;
+    }
+
+    .survol {
+        width: 63%;
+        margin-bottom: 0.3em
+    }
+
+    .conteneurArticle {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .articlegauche div {
+        flex-direction: column-reverse;
+    }
+
+    article a {
+        width: 25%;
+    }
+
+    .articlegauche div div {
+        width: 100%;
+    }
+
+    .articlegauche h2 {
+        width: 63%;
+    }
+
+    .articlegauche img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    article h2 {
+        width: 63%;
+    }
+
+    article {
+        margin-bottom: 4em;
+    }
+
+    .video h2 {
+        margin-right: 9em;
+    }
+    
+    .video {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    section {
+        margin-bottom: 4em;
+    }
+
+    .innerForm {
+        padding: 1.5em 0;
+        width: 98%;
+        flex-direction: column;
+    }
+
+    .fa-envelope:before {
+        display: none;
+    }
+
+    label {
+        margin-left: 0.5em;
+        margin: 0.5em;
+    }
+
+    input#email {
+        margin-bottom: 0.5em;
+    }
+
+    .valider {
+        margin-left: 7em;
+    }
+
+
+    #newsletter {
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        height: 25em;
+    }
+
+    .pied ul {
+        display: none;
+    }
+
+    address {
+        margin-bottom: 2em;
+    }
+
+    .pied div {
+        display: contents;
+    }
+
+    .fa-facebook, .fa-instagram {
+        font-size: 1.5em;
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+
+    .tarif, .contact {
+        width: 98%;
+    }
+
+    .tarif h2, .contact h2{
+        margin: 0 50% 0 0%;
+    }
+
+    .sponsor {
+        display: none;
+    }
+
+    .FAQ {
+        width: 98%;
+    }
+}
